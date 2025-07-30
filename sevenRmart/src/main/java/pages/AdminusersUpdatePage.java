@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utility.PageUtility;
 
 public class AdminusersUpdatePage {
-	@FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-admin' and @class='small-box-footer']") WebElement moreinfo;
+	@FindBy(xpath="//a[contains(@href, '/admin/list-admin') and contains(@class, 'small-box-footer')]") WebElement moreinfo;
 	 @FindBy(xpath="//a[contains(@class, 'btn-primary') and contains(@href,'/admin/user/edit')]")WebElement update;
 @FindBy(xpath="//input[@id='username']")WebElement username;
 @FindBy(xpath="//input[@id='password']")WebElement password;

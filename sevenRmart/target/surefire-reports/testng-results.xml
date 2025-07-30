@@ -1,176 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-30T14:37:41 IST" name="Suite" finished-at="2025-07-30T14:39:36 IST" duration-ms="115126">
+  <suite started-at="2025-07-30T21:45:28 IST" name="Suite" finished-at="2025-07-30T21:46:02 IST" duration-ms="34052">
     <groups>
-      <group name="regression">
-        <method signature="LoginTest.validateuserisabletologinwithvalidCredentials()[pri:0, instance:testscript5.LoginTest@43f02ef2]" name="validateuserisabletologinwithvalidCredentials" class="testscript5.LoginTest"/>
-      </group> <!-- regression -->
     </groups>
-    <test started-at="2025-07-30T14:37:41 IST" name="Test" finished-at="2025-07-30T14:39:36 IST" duration-ms="115126">
-      <class name="testscript5.ManageCategoryTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.ManageCategoryTest@5f8e8a9d]" started-at="2025-07-30T14:39:24 IST" name="browserInitialization" finished-at="2025-07-30T14:39:31 IST" duration-ms="6968" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validatewhetheruserisabletoupdatecategoryanduploadImage()[pri:0, instance:testscript5.ManageCategoryTest@5f8e8a9d]" started-at="2025-07-30T14:39:31 IST" name="validatewhetheruserisabletoupdatecategoryanduploadImage" finished-at="2025-07-30T14:39:35 IST" duration-ms="4140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatewhetheruserisabletoupdatecategoryanduploadImage -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.ManageCategoryTest@5f8e8a9d]" started-at="2025-07-30T14:39:35 IST" name="driverQuit" finished-at="2025-07-30T14:39:36 IST" duration-ms="707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.ManageCategoryTest -->
-      <class name="testscript5.ManageFooterTextTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:38:50 IST" name="browserInitialization" finished-at="2025-07-30T14:38:54 IST" duration-ms="4288" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateupdatebuttonisDisplayed()[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:38:54 IST" name="validateupdatebuttonisDisplayed" finished-at="2025-07-30T14:38:58 IST" duration-ms="3078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateupdatebuttonisDisplayed -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:38:58 IST" name="driverQuit" finished-at="2025-07-30T14:38:58 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:38:58 IST" name="browserInitialization" finished-at="2025-07-30T14:39:02 IST" duration-ms="3512" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateuserisabletomanageFooterText()[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:39:02 IST" name="validateuserisabletomanageFooterText" finished-at="2025-07-30T14:39:06 IST" duration-ms="4032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateuserisabletomanageFooterText -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.ManageFooterTextTest@2a8448fa]" started-at="2025-07-30T14:39:06 IST" name="driverQuit" finished-at="2025-07-30T14:39:06 IST" duration-ms="609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.ManageFooterTextTest -->
-      <class name="testscript5.AdminusersTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.AdminusersTest@1972e513]" started-at="2025-07-30T14:37:41 IST" name="browserInitialization" finished-at="2025-07-30T14:37:51 IST" duration-ms="9865" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateuserisabletoaddAdmin()[pri:0, instance:testscript5.AdminusersTest@1972e513]" started-at="2025-07-30T14:37:51 IST" name="validateuserisabletoaddAdmin" finished-at="2025-07-30T14:38:00 IST" duration-ms="9444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateuserisabletoaddAdmin -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.AdminusersTest@1972e513]" started-at="2025-07-30T14:38:00 IST" name="driverQuit" finished-at="2025-07-30T14:38:01 IST" duration-ms="792" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.AdminusersTest -->
-      <class name="testscript5.LoginTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:21 IST" name="browserInitialization" finished-at="2025-07-30T14:38:25 IST" duration-ms="3383" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateuserisabletologinwithInvalidUsername()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:25 IST" name="validateuserisabletologinwithInvalidUsername" finished-at="2025-07-30T14:38:26 IST" duration-ms="1160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateuserisabletologinwithInvalidUsername -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:26 IST" name="driverQuit" finished-at="2025-07-30T14:38:26 IST" duration-ms="567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:26 IST" name="browserInitialization" finished-at="2025-07-30T14:38:30 IST" duration-ms="3405" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateuserisabletologinwithvalidCredentials()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:30 IST" name="validateuserisabletologinwithvalidCredentials" finished-at="2025-07-30T14:38:31 IST" duration-ms="1565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateuserisabletologinwithvalidCredentials -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:31 IST" name="driverQuit" finished-at="2025-07-30T14:38:32 IST" duration-ms="561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:32 IST" name="browserInitialization" finished-at="2025-07-30T14:38:35 IST" duration-ms="3288" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyuserisabletologinwithInvalidPassword()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:35 IST" name="verifyuserisabletologinwithInvalidPassword" finished-at="2025-07-30T14:38:37 IST" duration-ms="1413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyuserisabletologinwithInvalidPassword -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:37 IST" name="driverQuit" finished-at="2025-07-30T14:38:37 IST" duration-ms="528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:37 IST" name="browserInitialization" finished-at="2025-07-30T14:38:40 IST" duration-ms="3232" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyuserisabletologinwithInvalidUsernameandInvalidPassword()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:40 IST" name="verifyuserisabletologinwithInvalidUsernameandInvalidPassword" finished-at="2025-07-30T14:38:41 IST" duration-ms="1151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyuserisabletologinwithInvalidUsernameandInvalidPassword -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.LoginTest@43f02ef2]" started-at="2025-07-30T14:38:41 IST" name="driverQuit" finished-at="2025-07-30T14:38:42 IST" duration-ms="537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.LoginTest -->
+    <test started-at="2025-07-30T21:45:28 IST" name="Test" finished-at="2025-07-30T21:46:02 IST" duration-ms="34052">
       <class name="testscript5.AdminusersUpdateTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:01 IST" name="browserInitialization" finished-at="2025-07-30T14:38:05 IST" duration-ms="4109" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:45:28 IST" name="browserInitialization" finished-at="2025-07-30T21:45:40 IST" duration-ms="11596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="validateadminusersisabletoUpdate()[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:05 IST" name="validateadminusersisabletoUpdate" finished-at="2025-07-30T14:38:11 IST" duration-ms="6055" status="PASS">
+        <test-method signature="validateadminusersisabletoUpdate()[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:45:40 IST" name="validateadminusersisabletoUpdate" finished-at="2025-07-30T21:45:49 IST" duration-ms="8996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateadminusersisabletoUpdate -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:11 IST" name="driverQuit" finished-at="2025-07-30T14:38:12 IST" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:45:49 IST" name="driverQuit" finished-at="2025-07-30T21:45:50 IST" duration-ms="1202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:12 IST" name="browserInitialization" finished-at="2025-07-30T14:38:16 IST" duration-ms="3891" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:45:50 IST" name="browserInitialization" finished-at="2025-07-30T21:45:56 IST" duration-ms="6188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,78 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="validateadminusersupdatebuttonisVisible()[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:16 IST" name="validateadminusersupdatebuttonisVisible" finished-at="2025-07-30T14:38:21 IST" duration-ms="4928" status="PASS">
+        <test-method signature="validateadminusersupdatebuttonisVisible()[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:45:56 IST" name="validateadminusersupdatebuttonisVisible" finished-at="2025-07-30T21:46:02 IST" duration-ms="5464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateadminusersupdatebuttonisVisible -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.AdminusersUpdateTest@740fb309]" started-at="2025-07-30T14:38:21 IST" name="driverQuit" finished-at="2025-07-30T14:38:21 IST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.AdminusersUpdateTest@17fc391b]" started-at="2025-07-30T21:46:02 IST" name="driverQuit" finished-at="2025-07-30T21:46:02 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- testscript5.AdminusersUpdateTest -->
-      <class name="testscript5.LogoutTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.LogoutTest@6f204a1a]" started-at="2025-07-30T14:39:06 IST" name="browserInitialization" finished-at="2025-07-30T14:39:10 IST" duration-ms="3467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateadminisabletologout()[pri:0, instance:testscript5.LogoutTest@6f204a1a]" started-at="2025-07-30T14:39:10 IST" name="validateadminisabletologout" finished-at="2025-07-30T14:39:12 IST" duration-ms="2398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateadminisabletologout -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.LogoutTest@6f204a1a]" started-at="2025-07-30T14:39:12 IST" name="driverQuit" finished-at="2025-07-30T14:39:13 IST" duration-ms="760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.LogoutTest -->
-      <class name="testscript5.ManageContactTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.ManageContactTest@239a307b]" started-at="2025-07-30T14:38:42 IST" name="browserInitialization" finished-at="2025-07-30T14:38:45 IST" duration-ms="3214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="validateadminisabletoupdatemanagecontact()[pri:0, instance:testscript5.ManageContactTest@239a307b]" started-at="2025-07-30T14:38:45 IST" name="validateadminisabletoupdatemanagecontact" finished-at="2025-07-30T14:38:50 IST" duration-ms="4334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateadminisabletoupdatemanagecontact -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.ManageContactTest@239a307b]" started-at="2025-07-30T14:38:50 IST" name="driverQuit" finished-at="2025-07-30T14:38:50 IST" duration-ms="627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.ManageContactTest -->
-      <class name="testscript5.ManageNewsTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript5.ManageNewsTest@2de56eb2]" started-at="2025-07-30T14:39:13 IST" name="browserInitialization" finished-at="2025-07-30T14:39:18 IST" duration-ms="5138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="manageNewsEntry()[pri:0, instance:testscript5.ManageNewsTest@2de56eb2]" started-at="2025-07-30T14:39:18 IST" name="manageNewsEntry" finished-at="2025-07-30T14:39:23 IST" duration-ms="5032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manageNewsEntry -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscript5.ManageNewsTest@2de56eb2]" started-at="2025-07-30T14:39:23 IST" name="driverQuit" finished-at="2025-07-30T14:39:24 IST" duration-ms="1021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverQuit -->
-      </class> <!-- testscript5.ManageNewsTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
