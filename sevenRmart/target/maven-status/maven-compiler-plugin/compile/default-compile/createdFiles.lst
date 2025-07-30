@@ -1,0 +1,15 @@
+utility\FileUploadUtility.class
+pages\AdminusersUpdatePage.class
+pages\LoginPage.class
+pages\AdminusersPage.class
+pages\ManageContactPage.class
+pages\ManageFooterTextPage.class
+utility\Excelutility.class
+utility\ExtentReportUtility.class
+pages\LogoutPage.class
+utility\Waitutility.class
+utility\Fakerutility.class
+utility\PageUtility.class
+constant\Constant.class
+pages\ManageCategoryPage.class
+pages\ManageNewsPage.class
