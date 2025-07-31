@@ -8,6 +8,7 @@ utility\Excelutility.class
 utility\ExtentReportUtility.class
 pages\LogoutPage.class
 utility\Waitutility.class
+constant\Messages.class
 utility\Fakerutility.class
 utility\PageUtility.class
 constant\Constant.class

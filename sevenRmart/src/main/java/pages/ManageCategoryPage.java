@@ -24,16 +24,16 @@ public ManageCategoryPage(WebDriver driver)
 	PageFactory.initElements(driver,this);
 	 fileUpload = new FileUploadUtility();
 }
-	public void moreinfo()
+	public void moreInfo()
 	{
 		moreinfo.click();
 	}
-	public void newbutton()
+	public void newButton()
 	{
 		newbutton.click();
 		
 	}
-	public void entercategory(String category1)
+	public void enterCategory(String category1)
 	{
 		category.sendKeys(category1);
 	}
@@ -46,7 +46,7 @@ public ManageCategoryPage(WebDriver driver)
     public void uploadImageUsingSendKeys(String imagePath) {
         fileUpload.fileuploadusingSendKeys(choosefile, imagePath);
     }
-    public boolean isimagepreviewDisplayed()
+    public boolean isimagePreviewDisplayed()
 	{
 		return imagepreview.isDisplayed();
 	}

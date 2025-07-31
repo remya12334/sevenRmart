@@ -5,13 +5,14 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Messages;
 import pages.LoginPage;
 import pages.ManageNewsPage;
 import utility.Excelutility;
 
 
 public class ManageNewsTest extends Base {
-	@Test
+	@Test(description="validate whether user is able to add news in manage news page")
 	public void manageNewsEntry() throws IOException {
 	    
         String username = Excelutility.getStringData(1,0,"LOGINPAGE");
@@ -28,7 +29,8 @@ public class ManageNewsTest extends Base {
         String newsContent = Excelutility.getStringData(0,0,"news");
         manageNewsPage.enterNewsText(newsContent);
         manageNewsPage.clickSaveButton();
-        Assert.assertTrue(manageNewsPage.isSuccessAlertDisplayed());
+        Boolean alert=manageNewsPage.isSuccessAlertDisplayed();
+        Assert.assertTrue(alert,Messages.MANAGENEWSALERT);
     }
 
 }

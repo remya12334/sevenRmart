@@ -24,7 +24,7 @@ public class AdminusersPage {
 			this.driver=driver;
 			PageFactory.initElements(driver,this);
 		}
-		public void adminusersmoreinfo()
+		public void adminusersMoreInfo()
 		{
 			moreinfo.click();
 			

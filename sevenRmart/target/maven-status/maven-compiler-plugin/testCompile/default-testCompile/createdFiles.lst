@@ -1,11 +1,11 @@
 testscript5\ManageCategoryTest.class
 testscript5\LogoutTest.class
 testscript5\ManageFooterTextTest.class
+testscript5\ManageContactTest.class
+testscript5\ManageNewsTest.class
 testscript5\AdminusersUpdateTest.class
 testscript5\LoginTest.class
-testscript5\ManageContactTest.class
 generatereport\Listeners.class
 testscript5\AdminusersTest.class
 testscript5\Base.class
-testscript5\ManageNewsTest.class
 retry\Retry.class

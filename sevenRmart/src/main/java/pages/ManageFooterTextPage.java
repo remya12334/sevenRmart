@@ -18,7 +18,7 @@ public ManageFooterTextPage(WebDriver driver)
 	this.driver=driver;
 	PageFactory.initElements(driver,this);
 }
-public void moreinfo()
+public void moreInfo()
 {
 	moreinfo.click();
 }

@@ -7,17 +7,15 @@
   <parameter name="browser" value="chrome"/> 
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testscript5.AdminusersTest"/>
+      
       <class name="testscript5.LoginTest"/>
-       <class name="testscript5.LogoutTest"/> 
-        <class name="testscript5.ManageFooterTest"/> 
-        <class name="testscript5.ManageNewsTest"/>
-        <class name="testscript5.ManageContactTest"/>
-        <class name="testscript5.ManageNewsTest"/>
+      <class name="testscript5.AdminusersTest"/>
+       <class name="testscript5.LogoutTest"/>   
+       <class name="testscript5.ManageFooterTextTest"/>  
+       <class name="testscript5.ManageContactTest"/>
+       <class name="testscript5.ManageNewsTest"/>
+       <class name="testscript5.AdminusersUpdateTest"/>
       <class name="testscript5.ManageCategoryTest">
-        <methods>
-          <include name="verifyUserisabletologinwithValidCredentials"/>
-        </methods>
       </class>     
     </classes>
   </test> <!-- Test -->

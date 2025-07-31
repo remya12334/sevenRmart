@@ -15,11 +15,11 @@ public class LogoutPage {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
-public void clickadminButton()
+public void clickAdminButton()
 {
 	adminbutton.click();
 }
-public void clicklogoutbutton()
+public void clickLogoutButton()
 {
 	logoutbutton.click();
 }

@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 31 19:38:33 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>149 seconds (149385 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscript5.ManageFooterTextTest.validateuserisabletoManageFooterText()'><b>validateuserisabletoManageFooterText</b><br>Test class: testscript5.ManageFooterTextTest<br>Test method: validate user is able to manage footer text</td>
+<td></td>
+<td>7</td>
+<td>testscript5.ManageFooterTextTest@5b218417</td></tr>
+<tr>
+<td title='testscript5.AdminusersUpdateTest.validateadminusersupdatebuttonisVisible()'><b>validateadminusersupdatebuttonisVisible</b><br>Test class: testscript5.AdminusersUpdateTest<br>Test method: validate whether the admin update button is visible</td>
+<td></td>
+<td>5</td>
+<td>testscript5.AdminusersUpdateTest@413d1baf</td></tr>
+<tr>
+<td title='testscript5.LoginTest.validateuserisabletoLoginwithInvalidUsername()'><b>validateuserisabletoLoginwithInvalidUsername</b><br>Test class: testscript5.LoginTest<br>Test method: validate user is able to login with invalid username</td>
+<td></td>
+<td>4</td>
+<td>testscript5.LoginTest@74d1dc36</td></tr>
+<tr>
+<td title='testscript5.LoginTest.verifyuserisabletoLoginwithInvalidPassword()'><b>verifyuserisabletoLoginwithInvalidPassword</b><br>Test class: testscript5.LoginTest<br>Test method: validate user is able to login with invalid password</td>
+<td></td>
+<td>1</td>
+<td>testscript5.LoginTest@74d1dc36</td></tr>
+<tr>
+<td title='testscript5.ManageContactTest.validateadminisabletoUpdateManageContact()'><b>validateadminisabletoUpdateManageContact</b><br>Test class: testscript5.ManageContactTest<br>Test method: validate admin is able to update manage contact page</td>
+<td></td>
+<td>5</td>
+<td>testscript5.ManageContactTest@645aa696</td></tr>
+<tr>
+<td title='testscript5.LogoutTest.validateadminisAbleToLogout()'><b>validateadminisAbleToLogout</b><br>Test class: testscript5.LogoutTest<br>Test method: validate admin is able to logout</td>
+<td></td>
+<td>3</td>
+<td>testscript5.LogoutTest@cc43f62</td></tr>
+<tr>
+<td title='testscript5.ManageNewsTest.manageNewsEntry()'><b>manageNewsEntry</b><br>Test class: testscript5.ManageNewsTest<br>Test method: validate whether user is able to add news in manage news page</td>
+<td></td>
+<td>4</td>
+<td>testscript5.ManageNewsTest@6caf0677</td></tr>
+<tr>
+<td title='testscript5.LoginTest.validateuserisabletoLoginwithValidCredentials()'><b>validateuserisabletoLoginwithValidCredentials</b><br>Test class: testscript5.LoginTest<br>Test method: validate user is able to login with valid credentials</td>
+<td></td>
+<td>2</td>
+<td>testscript5.LoginTest@74d1dc36</td></tr>
+<tr>
+<td title='testscript5.AdminusersTest.validateuserisabletoaddAdmin()'><b>validateuserisabletoaddAdmin</b><br>Test class: testscript5.AdminusersTest<br>Test method: Validate user is able to add an admin</td>
+<td></td>
+<td>7</td>
+<td>testscript5.AdminusersTest@2cb4893b</td></tr>
+<tr>
+<td title='testscript5.ManageFooterTextTest.validateUpdateButtonisDisplayed()'><b>validateUpdateButtonisDisplayed</b><br>Test class: testscript5.ManageFooterTextTest<br>Test method: validate user is able to view the update button</td>
+<td></td>
+<td>3</td>
+<td>testscript5.ManageFooterTextTest@5b218417</td></tr>
+<tr>
+<td title='testscript5.LoginTest.verifyuserisabletoLoginwithInvalidUsernameandInvalidPassword()'><b>verifyuserisabletoLoginwithInvalidUsernameandInvalidPassword</b><br>Test class: testscript5.LoginTest<br>Test method: validate user is able to login with invalid username and invalid password</td>
+<td></td>
+<td>1</td>
+<td>testscript5.LoginTest@74d1dc36</td></tr>
+<tr>
+<td title='testscript5.AdminusersUpdateTest.validateadminusersisabletoUpdate()'><b>validateadminusersisabletoUpdate</b><br>Test class: testscript5.AdminusersUpdateTest<br>Test method: validate whether user is able to update admin</td>
+<td></td>
+<td>7</td>
+<td>testscript5.AdminusersUpdateTest@413d1baf</td></tr>
+<tr>
+<td title='testscript5.ManageCategoryTest.validatewhetheruserisabletoUpdateCategoryandUploadImage()'><b>validatewhetheruserisabletoUpdateCategoryandUploadImage</b><br>Test class: testscript5.ManageCategoryTest<br>Test method: validate admin is able to update category and upload image file</td>
+<td></td>
+<td>6</td>
+<td>testscript5.ManageCategoryTest@16eb3ea3</td></tr>
+</table><p>
+</body>
+</html>

@@ -25,33 +25,33 @@ public AdminusersUpdatePage(WebDriver driver)
 	this.driver=driver;
 	PageFactory.initElements(driver,this);
 }
-public void moreinfo()
+public void moreInfo()
 {
 	moreinfo.click();
 }
-public void updateadminusers() {
+public void updateAdminUsers() {
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     wait.until(ExpectedConditions.elementToBeClickable(update));
     update.click();
 }
-public void updateusername(String username1)
+public void updateUsername(String username1)
 {
 	username.clear();
 	username.sendKeys(username1);
 }
-public void updatepassword(String password1)
+public void updatePassword(String password1)
 {
 	password.clear();
 	password.sendKeys(password1);
 }
-public void selectadmintype()
+public void selectAdminType()
 {
 	PageUtility page=new PageUtility();
 	page.selectByIndex(usertype,3);
 	updateadmin.click();
 }
 public boolean isalertDisplayed() {
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     wait.until(ExpectedConditions.visibilityOf(alert));
     return alert.isDisplayed();
 }
